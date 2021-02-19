@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Post Logger</title>
     <meta charset="utf-8"/>
+    <style>
+      button {
+	      display: block;
+	      position: relative;
+	      padding: 0.2em;
+      	text-align: center;
+      	text-decoration: none;
+      	color: #fff;
+      	background: #990000;
+      }
+      button:hover {
+	      opacity:0.8;
+	      cursor: pointer;
+	      text-decoration: none;
+      }
+    </style>
   </head>
   <body>
     <label>URL</label><input type="text" id="url" size="20">
-    <button id="urlChange">Change</button>
-
-    <p id="history">a</p>
+    <center><button id="urlChange" style="margin-top:6px;">Change</button></center>
+    <center><p id="history" style="font-size: large;">a</p></center>
     <script type="text/javascript" src="../js/popup.js"></script>
   </body>
 <table>
