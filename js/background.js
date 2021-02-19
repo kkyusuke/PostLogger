@@ -1,4 +1,4 @@
-var url="https://example.com/";
+var url="https://example.com/*";
 chrome.storage.local.get(null, function(items) {
     chrome.webRequest.onBeforeRequest.addListener(
         function(details) {
@@ -18,6 +18,6 @@ chrome.storage.local.get(null, function(items) {
                 });
             }
         },
-        {urls: [items.url]}
+        {urls: [items.url==null?url:items.url]}
     );
 });
