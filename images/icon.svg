@@ -14,9 +14,9 @@
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
    sodipodi:docname="icon.svg"
-   inkscape:export-filename="C:\Users\kimura\Documents\OCRLogger\images\icon38.png"
-   inkscape:export-xdpi="5.7000008"
-   inkscape:export-ydpi="5.7000008">
+   inkscape:export-filename="C:\Users\kimura\Documents\GitHub\PostLogger\images\icon16.png"
+   inkscape:export-xdpi="2.4000001"
+   inkscape:export-ydpi="2.4000001">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -34,11 +34,11 @@
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:window-width="2556"
-     inkscape:window-height="1248"
-     inkscape:window-x="31"
-     inkscape:window-y="322"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="3840"
+     inkscape:window-height="2050"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,12 +59,13 @@
     <circle
        style="fill:#800000;stroke:#800000;stroke-width:2.00026"
        id="path1406"
-       cx="84.20121"
+       cx="84.666664"
        cy="85.270287"
        r="83.666534" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:5.96942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 19.777944,91.376346 H 83.92263 V 10.423511"
-       id="path1408" />
+       style="fill:none;stroke:#ffffff;stroke-width:25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 33.835544,94.423996 52.867466,0 V 15.661217"
+       id="path1408"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>
