@@ -13,6 +13,6 @@ chrome.storage.local.get(null, function(items) {
 var urlChange = document.getElementById("urlChange");
 urlChange.addEventListener("click", function() {
     chrome.storage.local.set({'url': urlArea.value}, function() {
-        chrome.runtime.reload()
+        chrome.runtime.reload();
     });
 });
